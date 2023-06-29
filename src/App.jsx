@@ -51,7 +51,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className='HeaderName'>Weather App</h1>
+      <h1 className='HeaderName'>Get to know your zone</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -60,7 +60,7 @@ function App() {
           onChange={handleLocationChange}
           className='InputField'
         />
-        <button type="submit" className='buttonElem'>Get Weather</button>
+        <button type="submit" className='buttonElem'>Search</button>
         <button className='buttonElem' onClick={handleClear}>Clear</button>
       </form>
       {loading ? (
